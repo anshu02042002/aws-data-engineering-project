@@ -265,7 +265,7 @@ git clone https://github.com/anshu02042002/aws-data-engineering-project.git
 
 The project stores raw, cleaned, and analytics-ready datasets in Amazon S3 following the Medallion Architecture.
 
-![AWS S3 Bucket](images/s3-bucket.png)
+![AWS S3 Bucket](images/S3-bucket.png)
 
 ---
 
