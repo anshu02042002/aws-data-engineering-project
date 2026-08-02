@@ -1,5 +1,12 @@
 # 🚀 AWS PySpark Data Engineering Pipeline
 
+![AWS](https://img.shields.io/badge/AWS-S3-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-4.1-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-4.1-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![GitHub](https://img.shields.io/badge/Git-GitHub-181717?style=for-the-badge&logo=github)
+![Parquet](https://img.shields.io/badge/Format-Parquet-50C878?style=for-the-badge)
+
 An end-to-end **AWS Data Engineering pipeline** built using **Amazon S3, Apache Spark, and PySpark** following the **Medallion Architecture (Bronze → Silver → Gold)**.
 
 This project demonstrates how to build a scalable cloud-based data lake by ingesting raw e-commerce data into Amazon S3, transforming it with PySpark, implementing incremental loading, and creating analytics-ready datasets.
