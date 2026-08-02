@@ -259,6 +259,22 @@ Additional order records are used to demonstrate incremental loading.
 git clone https://github.com/anshu02042002/aws-data-engineering-project.git
 ```
 
+# 📸 Project Screenshots
+
+## AWS S3 Data Lake
+
+The project stores raw, cleaned, and analytics-ready datasets in Amazon S3 following the Medallion Architecture.
+
+![AWS S3 Bucket](images/s3-bucket.png)
+
+---
+
+## Incremental Loading
+
+The pipeline processes only new records using a **left_anti join**, preventing duplicate data from being loaded into the Silver layer.
+
+![Incremental Loading](images/incremental-load.png)
+
 ### Install dependencies
 
 ```bash
